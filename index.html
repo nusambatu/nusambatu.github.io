@@ -21,20 +21,19 @@
 </head>
 <body class="bg-gradient-to-br from-yellow-50 to-orange-50 min-h-screen">
     <!-- Header -->
-    <header class="bg-gradient-to-r from-primary to-secondary text-white shadow-2xl">
-        <div class="container mx-auto px-6 py-8 text-center">
-            <div class="flex items-center justify-center mb-4">
-                <i class="fas fa-coffee text-5xl mr-4"></i>
-                <h1 class="text-4xl md:text-5xl font-bold">Kopi Dampit Mbah Seno</h1>
+    <header class="bg-gradient-to-r from-primary to-secondary text-white shadow-2xl relative overflow-hidden">
+        <div class="absolute inset-0 bg-black/20"></div>
+        <div class="container mx-auto px-6 py-12 md:py-20 text-center relative z-10">
+            <div class="flex items-center justify-center mb-6">
+                <i class="fas fa-coffee text-5xl md:text-6xl mr-6"></i>
+                <h1 class="text-4xl md:text-6xl font-bold">Kopi Dampit Mbah Seno</h1>
             </div>
-            <p class="text-xl md:text-2xl opacity-90">Rasa Asli Malang, Langsung ke Meja Anda</p>
-            <div class="mt-4">
-                <a href="https://wa.me/6288234117369?text=Halo%20Mbah%20Seno%2C%20saya%20mau%20pesan%20produk" 
-                   class="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full text-lg font-semibold inline-flex items-center transition-all duration-300 transform hover:scale-105">
-                    <i class="fab fa-whatsapp mr-2"></i>
-                    Order Sekarang via WA
-                </a>
-            </div>
+            <p class="text-xl md:text-2xl opacity-90 mb-8 max-w-2xl mx-auto">Kopi Dampit Mbah Seno hadir dengan rasa khas yang kuat, aroma harum yang menggoda selera dan pas lidah.</p>
+            <a href="https://wa.me/6288234117369?text=Halo Nusambatu%2C%20saya%20mau%20pesan%20produk" 
+               class="bg-green-500 hover:bg-green-600 text-white px-10 py-4 rounded-full text-xl font-semibold inline-flex items-center transition-all duration-300 transform hover:scale-105 shadow-2xl">
+                <i class="fab fa-whatsapp mr-3 text-xl"></i>
+                Order Sekarang via WA
+            </a>
         </div>
     </header>
 
@@ -44,75 +43,90 @@
         <section class="mb-20">
             <div class="text-center mb-16">
                 <h2 class="text-4xl md:text-5xl font-bold text-primary mb-4">Produk Unggulan Kami</h2>
-                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Kualitas terbaik langsung dari tangan Mbah Seno</p>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Kualitas terbaik, Rasa pekat dan nikmat, cocok untuk pecinta kopi sejati</p>
             </div>
 
             <!-- Grid Produk -->
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
                 <!-- Kopi Dampit -->
-                <div class="group bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-4 p-8 border-4 border-white hover:border-secondary">
-                    <div class="w-24 h-24 bg-gradient-to-br from-primary to-secondary rounded-2xl mx-auto mb-6 flex items-center justify-center shadow-lg">
-                        <i class="fas fa-coffee text-3xl text-white"></i>
+                <div class="group bg-white rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-6 p-8 border-4 border-white hover:border-secondary overflow-hidden">
+                    <div class="relative mb-6">
+                        <img src="/img/seno.png" 
+                             alt="Kopi Dampit Mbah Seno" 
+                             class="w-full h-64 object-cover rounded-2xl shadow-2xl group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute top-4 right-4 bg-green-500 text-white px-3 py-1 rounded-full text-sm font-bold">
+                            ⭐ Terlaris
+                        </div>
                     </div>
                     <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center">Kopi Dampit Mbah Seno</h3>
                     <div class="space-y-3 mb-8">
-                        <div class="flex justify-between items-center">
+                        <div class="flex justify-between items-center p-3 bg-gray-50 rounded-xl">
                             <span class="text-lg font-semibold text-primary">250gr</span>
                             <span class="text-2xl font-bold text-secondary">Rp 45.000</span>
                         </div>
-                        <div class="flex justify-between items-center">
-                            <span class="text-lg font-semibold text-primary">500gr</span>
-                            <span class="text-2xl font-bold text-secondary">Rp 85.000</span>
+                        <div class="flex justify-between items-center p-3 bg-gray-50 rounded-xl">
+                            <span class="text-lg font-semibold text-primary">1 kg</span>
+                            <span class="text-2xl font-bold text-secondary">Rp 135.000</span>
                         </div>
                     </div>
-                    <a href="https://wa.me/6281234567890?text=Halo%20Mbah%20Seno%2C%20saya%20mau%20pesan%20Kopi%20Dampit" 
-                       class="w-full bg-gradient-to-r from-primary to-secondary text-white py-4 px-6 rounded-2xl font-bold text-lg flex items-center justify-center transition-all duration-300 hover:from-secondary hover:to-primary transform hover:scale-105 shadow-lg">
+                    <a href="https://wa.me/6288234117369?text=Halo Nusambatu%2C%20saya%20mau%20pesan%20Kopi%20Dampit%20250gr" 
+                       class="w-full bg-gradient-to-r from-primary to-secondary text-white py-4 px-6 rounded-2xl font-bold text-lg flex items-center justify-center transition-all duration-300 hover:from-secondary hover:to-primary transform hover:scale-105 shadow-xl">
                         <i class="fab fa-whatsapp mr-2"></i>
                         Pesan Kopi Dampit
                     </a>
                 </div>
 
                 <!-- Telur Asin -->
-                <div class="group bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-4 p-8 border-4 border-white hover:border-secondary">
-                    <div class="w-24 h-24 bg-gradient-to-br from-amber-500 to-orange-500 rounded-2xl mx-auto mb-6 flex items-center justify-center shadow-lg">
-                        <i class="fas fa-egg text-3xl text-white"></i>
+                <div class="group bg-white rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-6 p-8 border-4 border-white hover:border-secondary overflow-hidden">
+                    <div class="relative mb-6">
+                        <img src="/img/asin2.png" 
+                             alt="Telur Asin Premium" 
+                             class="w-full h-64 object-cover rounded-2xl shadow-2xl group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute top-4 right-4 bg-yellow-500 text-white px-3 py-1 rounded-full text-sm font-bold">
+                            🥚 Premium
+                        </div>
                     </div>
                     <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center">Telur Asin Premium</h3>
                     <div class="space-y-3 mb-8">
-                        <div class="flex justify-between items-center">
-                            <span class="text-lg font-semibold text-primary">6 pcs</span>
-                            <span class="text-2xl font-bold text-secondary">Rp 35.000</span>
+                        <div class="flex justify-between items-center p-3 bg-gray-50 rounded-xl">
+                            <span class="text-lg font-semibold text-primary">5 pcs</span>
+                            <span class="text-2xl font-bold text-secondary">Rp 20.000</span>
                         </div>
-                        <div class="flex justify-between items-center">
-                            <span class="text-lg font-semibold text-primary">12 pcs</span>
-                            <span class="text-2xl font-bold text-secondary">Rp 65.000</span>
+                        <div class="flex justify-between items-center p-3 bg-gray-50 rounded-xl">
+                            <span class="text-lg font-semibold text-primary">20 pcs</span>
+                            <span class="text-2xl font-bold text-secondary">Rp 75.000</span>
                         </div>
                     </div>
-                    <a href="https://wa.me/6281234567890?text=Halo%20Mbah%20Seno%2C%20saya%20mau%20pesan%20Telur%20Asin" 
-                       class="w-full bg-gradient-to-r from-amber-500 to-orange-500 text-white py-4 px-6 rounded-2xl font-bold text-lg flex items-center justify-center transition-all duration-300 hover:from-orange-500 hover:to-amber-500 transform hover:scale-105 shadow-lg">
+                    <a href="https://wa.me/6288234117369?text=Halo Nusambatu%2C%20saya%20mau%20pesan%20Telur%20Asin%206%20pcs" 
+                       class="w-full bg-gradient-to-r from-amber-500 to-orange-500 text-white py-4 px-6 rounded-2xl font-bold text-lg flex items-center justify-center transition-all duration-300 hover:from-orange-500 hover:to-amber-500 transform hover:scale-105 shadow-xl">
                         <i class="fab fa-whatsapp mr-2"></i>
                         Pesan Telur Asin
                     </a>
                 </div>
 
                 <!-- Peyek -->
-                <div class="group bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-4 p-8 border-4 border-white hover:border-secondary">
-                    <div class="w-24 h-24 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl mx-auto mb-6 flex items-center justify-center shadow-lg">
-                        <i class="fas fa-seedling text-3xl text-white"></i>
+                <div class="group bg-white rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-6 p-8 border-4 border-white hover:border-secondary overflow-hidden">
+                    <div class="relative mb-6">
+                        <img src="/img/peyek.png" 
+                             alt="Peyek Kriuk Mbah Seno" 
+                             class="w-full h-64 object-cover rounded-2xl shadow-2xl group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute top-4 right-4 bg-emerald-500 text-white px-3 py-1 rounded-full text-sm font-bold">
+                            🌿 Kriuk
+                        </div>
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center">Peyek Kriuk Mbah Seno</h3>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center">Peyek Kriuk</h3>
                     <div class="space-y-3 mb-8">
-                        <div class="flex justify-between items-center">
-                            <span class="text-lg font-semibold text-primary">150gr</span>
-                            <span class="text-2xl font-bold text-secondary">Rp 25.000</span>
+                        <div class="flex justify-between items-center p-3 bg-gray-50 rounded-xl">
+                            <span class="text-lg font-semibold text-primary">70 gr</span>
+                            <span class="text-2xl font-bold text-secondary">Rp 5.000</span>
                         </div>
-                        <div class="flex justify-between items-center">
-                            <span class="text-lg font-semibold text-primary">300gr</span>
-                            <span class="text-2xl font-bold text-secondary">Rp 45.000</span>
+                        <div class="flex justify-between items-center p-3 bg-gray-50 rounded-xl">
+                            <span class="text-lg font-semibold text-primary">500 gr</span>
+                            <span class="text-2xl font-bold text-secondary">Rp 30.000</span>
                         </div>
                     </div>
-                    <a href="https://wa.me/6288234117369?text=Halo%20Mbah%20Seno%2C%20saya%20mau%20pesan%20Peyek" 
-                       class="w-full bg-gradient-to-r from-green-500 to-emerald-600 text-white py-4 px-6 rounded-2xl font-bold text-lg flex items-center justify-center transition-all duration-300 hover:from-emerald-600 hover:to-green-500 transform hover:scale-105 shadow-lg">
+                    <a href="https://wa.me/6288234117369?text=Halo Nusambatu%2C%20saya%20mau%20pesan%20Peyek%20150gr" 
+                       class="w-full bg-gradient-to-r from-emerald-500 to-green-600 text-white py-4 px-6 rounded-2xl font-bold text-lg flex items-center justify-center transition-all duration-300 hover:from-green-600 hover:to-emerald-500 transform hover:scale-105 shadow-xl">
                         <i class="fab fa-whatsapp mr-2"></i>
                         Pesan Peyek Kriuk
                     </a>
@@ -120,19 +134,56 @@
             </div>
         </section>
 
-        <!-- Promo Section -->
-        <section class="bg-gradient-to-r from-primary to-secondary text-white py-20 rounded-3xl text-center mb-20">
-            <div class="container mx-auto px-6">
-                <div class="max-w-3xl mx-auto">
-                    <i class="fas fa-gift text-6xl mb-6 block"></i>
-                    <h2 class="text-4xl md:text-5xl font-bold mb-6">Paket Hemat Mbah Seno</h2>
-                    <p class="text-xl mb-8 opacity-90">Kopi Dampit 250gr + Telur Asin 6 pcs + Peyek 150gr</p>
-                    <div class="text-4xl font-bold mb-8 text-yellow-300">Hanya Rp 95.000 (Hemat Rp 20.000!)</div>
-                    <a href="https://wa.me/6288234117369?text=Halo%20Mbah%20Seno%2C%20saya%20mau%20pesan%20Paket%20Hemat" 
-                       class="bg-yellow-400 hover:bg-yellow-500 text-primary font-bold px-12 py-5 rounded-2xl text-xl inline-flex items-center transition-all duration-300 transform hover:scale-105 shadow-2xl">
-                        <i class="fab fa-whatsapp mr-3 text-2xl"></i>
-                        Ambil Paket Hemat Sekarang
-                    </a>
+        <!-- Promo Section dengan Gambar -->
+        <section class="bg-gradient-to-r from-primary to-secondary text-white py-24 rounded-3xl text-center mb-20 relative overflow-hidden">
+            <div class="absolute inset-0 bg-black/10"></div>
+            <div class="relative z-10 container mx-auto px-6">
+                <div class="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+                    <div>
+                        <i class="fas fa-gift text-6xl mb-8 block"></i>
+                        <h2 class="text-4xl md:text-5xl font-bold mb-6">Paket Hemat Mbah Seno</h2>
+                        <p class="text-xl mb-8 opacity-90">Kopi Dampit 250gr + Telur Asin 6 pcs + Peyek 150gr</p>
+                        <div class="text-5xl font-bold mb-10 text-yellow-300">Hanya <span class="text-6xl">Rp 95.000</span><br><span class="text-xl">(Hemat Rp 20.000!)</span></div>
+                        <a href="https://wa.me/6288234117369?text=Halo Nusambatu%2C%20saya%20mau%20pesan%20Paket%20Hemat" 
+                           class="bg-yellow-400 hover:bg-yellow-500 text-primary font-bold px-12 py-5 rounded-2xl text-xl inline-flex items-center transition-all duration-300 transform hover:scale-105 shadow-2xl">
+                            <i class="fab fa-whatsapp mr-3 text-2xl"></i>
+                            Ambil Paket Hemat Sekarang
+                        </a>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4 max-w-md mx-auto lg:mx-0">
+                        <img src="/img/seno.png">
+                        <img src="/img/asin.png">
+                        <img src="/img/asin3.png">
+                        <img src="/img/peyek.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimoni -->
+        <section class="mb-20">
+            <h2 class="text-4xl md:text-5xl font-bold text-primary text-center mb-16">Apa Kata Pelanggan?</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-3xl shadow-xl text-center">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80" 
+                         alt="Pelanggan" class="w-24 h-24 rounded-full mx-auto mb-4 shadow-lg object-cover">
+                    <p class="text-gray-600 italic mb-4">"Kopi Dampitnya enak banget! Wanginya nendang, rasanya smooth. Recommended!"</p>
+                    <div class="flex justify-center text-yellow-400 text-2xl mb-2">⭐⭐⭐⭐⭐</div>
+                    <h4 class="font-bold text-gray-800">Budi S.</h4>
+                </div>
+                <div class="bg-white p-8 rounded-3xl shadow-xl text-center">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80" 
+                         alt="Pelanggan" class="w-24 h-24 rounded-full mx-auto mb-4 shadow-lg object-cover">
+                    <p class="text-gray-600 italic mb-4">"Telur asinnya gurih, peyeknya renyah. Paket hemat worth it banget!"</p>
+                    <div class="flex justify-center text-yellow-400 text-2xl mb-2">⭐⭐⭐⭐⭐</div>
+                    <h4 class="font-bold text-gray-800">Sari W.</h4>
+                </div>
+                <div class="bg-white p-8 rounded-3xl shadow-xl text-center">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80" 
+                         alt="Pelanggan" class="w-24 h-24 rounded-full mx-auto mb-4 shadow-lg object-cover">
+                    <p class="text-gray-600 italic mb-4">"Peyeknya kriuk banget, ga bikin enek. Kopinya juga top markotop!"</p>
+                    <div class="flex justify-center text-yellow-400 text-2xl mb-2">⭐⭐⭐⭐⭐</div>
+                    <h4 class="font-bold text-gray-800">Agus P.</h4>
                 </div>
             </div>
         </section>
@@ -144,17 +195,17 @@
                 <div class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300">
                     <i class="fab fa-whatsapp text-4xl text-green-500 mb-4 block"></i>
                     <h3 class="text-xl font-bold mb-2">WhatsApp</h3>
-                    <a href="https://wa.me/6288234117369" class="text-2xl font-bold text-primary hover:text-secondary">0812-3456-7890</a>
+                    <a href="https://wa.me/6288234117369" class="text-2xl font-bold text-primary hover:text-secondary block">088-234-117-369</a>
                 </div>
                 <div class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300">
                     <i class="fas fa-map-marker-alt text-4xl text-red-500 mb-4 block"></i>
                     <h3 class="text-xl font-bold mb-2">Alamat</h3>
-                    <p class="text-lg">Desa Dampit, Kec. Dampit<br>Malang, Jawa Timur</p>
+                    <p class="text-lg">📍 Desa Oro - Oro Ombo Kota Batu <br>Kota Batu, Jawa Timur</p>
                 </div>
                 <div class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300">
                     <i class="fas fa-clock text-4xl text-blue-500 mb-4 block"></i>
                     <h3 class="text-xl font-bold mb-2">Jam Operasional</h3>
-                    <p class="text-lg">Senin-Minggu<br>08.00 - 20.00 WIB</p>
+                    <p class="text-lg">🕗 Senin-Minggu<br>08.00 - 20.00 WIB</p>
                 </div>
             </div>
         </section>
@@ -163,19 +214,37 @@
     <!-- Footer -->
     <footer class="bg-gradient-to-r from-gray-800 to-gray-900 text-white py-12 mt-20">
         <div class="container mx-auto px-6 text-center">
-            <div class="flex items-center justify-center mb-4">
-                <i class="fas fa-coffee text-3xl mr-3"></i>
+            <div class="flex items-center justify-center mb-6">
+                <i class="fas fa-coffee text-4xl mr-4"></i>
                 <h3 class="text-2xl font-bold">Kopi Dampit Mbah Seno</h3>
             </div>
-            <p>&copy; 2024 Kopi Dampit Mbah Seno. Semua hak dilindungi. Dibuat dengan <i class="fas fa-heart text-red-500"></i> dari Malang.</p>
+            <p class="mb-4">Rasa otentik dari lereng gunung , dikirim segar ke tangan Anda ☕🥚🌾</p>
+            <p>&copy; 2026 Kopi Dampit Mbah Seno. Semua hak dilindungi.</p>
         </div>
     </footer>
 
     <!-- Floating WA Button -->
-    <a href="https://wa.me/6288234117369?text=Halo%20Mbah%20Seno%2C%20saya%20lihat%20katalog%20produk%20di%20website" 
-       class="fixed bottom-8 right-8 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-2xl text-2xl w-16 h-16 flex items-center justify-center transition-all duration-300 hover:scale-110 z-50"
+    <a href="https://wa.me/6288234117369?text=Halo Nusambatu%2C%20saya%20lihat%20katalog%20produk%20di%20website" 
+       class="fixed bottom-8 right-8 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-2xl text-2xl w-16 h-16 flex items-center justify-center transition-all duration-300 hover:scale-110 z-50 animate-pulse"
        target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>
+
+    <!-- Preload Images untuk performa -->
+    <script>
+        // Preload hero images
+        const images = [
+            '/img/logo',
+            '/img/seno',
+            '/img/logo'
+            
+            
+        
+        ];
+        images.forEach(src => {
+            const img = new Image();
+            img.src = src;
+        });
+    </script>
 </body>
 </html>
